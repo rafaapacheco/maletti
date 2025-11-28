@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maletti Brasil</title>
+
+  <!-- Fonte Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Maletti no Brasil — móveis para salão de beleza que unem design italiano, inovação e tecnologia.">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="site-header" class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="Maletti no Brasil">
+        <img src="assets/images/logo.png" alt="Maletti" class="logo">
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <!-- Hamburguer (visible on mobile) -->
+        <button class="mobile-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </button>
+
+        <!-- extra close btn (also shown when menu open) -->
+        <button class="close-menu" aria-label="Fechar menu">✕</button>
+
+        <ul id="primary-navigation" class="nav-list" role="menu">
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#essencia">A Essência Maletti</a></li>
+          <li><a href="#headspa">Maletti Head SPA</a></li>
+          <li><a href="#design">Design e Experiências</a></li>
+          <li><a href="#contato">Catálogo / Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="section hero">
+      <div class="hero-media">
+        <video class="hero-video" src="assets/video/Vídeo Home.mp4"
+          poster="assets/video/Vídeo Home.mp4" autoplay muted loop playsinline preload="auto"></video>
+
+        <div class="hero-text container">
+          <h1 class="site-title">Transforme Espaços.<br><span class="accent">Eleve Experiências.</span></h1>
+          <p class="lead">Apresentamos a revolução do bem-estar capilar no Brasil. As estações Maletti Head SPA unem o design italiano a uma tecnologia única para criar uma experiência sensorial que redefine o luxo em seu salão.</p>
+
+          <div class="hero-ctas">
+            <a class="btn primary" href="#contato">Solicitar o Catálogo Maletti</a>
+            <a class="btn ghost" href="#design">Ver Design &amp; Experiências</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A ESSÊNCIA -->
+    <section id="essencia" class="section about">
+      <div class="container about-wrapper">
+        <div class="about-images">
+          <!-- imagens: coloque as imagens da pasta Assets/images aqui -->
+          <div class="img-grid">
+            <img src="Assets/images/Essencia Maletti 1.jpg" alt="">
+            <img src="Assets/images/Essencia Maletti 2.jpg" alt="">
+            <img src="Assets/images/Essencia Maletti 3.jpg" alt="">
+            <img src="Assets/images/Essencia Maletti 4.jpg" alt="">
+            <img src="Assets/images/saloes/Boutique Beauté de Charles Veiyga - São Paulo - SP (1).png" alt="">
+          </div>
+        </div>
+
+        <div class="about-text-block">
+          <h2 class="section-title">A Essência Maletti</h2>
+          <p>Nossa essência vai além da criação de móveis para salão de beleza de luxo. É uma tradição que une a arte do design italiano à inovação tecnológica em cada detalhe. O resultado são peças que encantam pelo estilo, entregam performance, conforto absoluto e a experiência de bem-estar que define a sua marca.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIDERANÇA -->
+    <section id="lideranca" class="section awards">
+      <div class="container">
+        <h2 class="section-title">Liderança Global e Reconhecimento</h2>
+        <p class="section-sub">A Maletti é líder e referência mundial no setor, com presença como protagonista nas feiras mais importantes do mundo, como a Cosmoprof Worldwide e a prestigiada MCB em Paris.</p>
+
+        <p>Nossa excelência é validada por prêmios de grande prestígio, como o Grand Prix de l'Innovation, conquistado em Paris, e o Credit Reputation Award.</p>
+
+        <p>Com uma rede internacional de showrooms, levamos o design e a inovação italianos a todos os continentes.</p>
+
+        <!-- espaço para 3 logos (você insere as imagens depois) -->
+        <div class="logos-row">
+          <img src="Assets/images/Grand_Prix.png" alt="logo 1">
+          <img src="Assets/images/cosmoprof-logo-300x70.png" alt="logo 2">
+          <img src="Assets/images/MCB_LOGO_NOIR.svg" alt="logo 3">
+        </div>
+      </div>
+    </section>
+
+    <!-- MALETTI NO BRASIL -->
+    <section id="maletti-brasil" class="section maletti-brasil">
+      <div class="container maletti-grid">
+        <div class="maletti-text">
+          <h2 class="section-title">Maletti no Brasil</h2>
+          <p>Como parceira exclusiva da Maletti no Brasil, a SHR HAIR garante o sucesso do seu negócio, transformando seu investimento em alta rentabilidade e experiências inesquecíveis.</p>
+          <p>Nosso suporte completo assegura essa excelência com instalação, treinamento e manutenção preventiva.</p>
+        </div>
+
+        <div class="maletti-gallery">
+          <!-- galeria (use as imagens de Assets/images/saloes) -->
+          <div class="gallery-grid">
+            <img src="Assets/images/saloes/Salão Mulher Cheirosa - Fortaleza - CE (1).png" alt="">
+            <img src="Assets/images/saloes/Salão C. Kamura São Paulo - SP (1).png" alt="">
+            <img src="Assets/images/saloes/Boutique Beauté de Charles Veiyga - São Paulo - SP (1).png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESIGN E EXPERIÊNCIAS (vídeo principal + miniaturas) -->
+    <section id="design" class="section design-experience dark">
+      <div class="container">
+        <h2 class="section-title white">Design e Experiências</h2>
+        <p class="section-sub white">A excelência em móveis para salão de beleza de luxo: veja o autêntico design italiano em sua máxima performance. Assista e sinta por que o mobiliário de alto padrão Maletti é a escolha perfeita para transformar seu espaço.</p>
+
+        <div class="video-gallery">
+          <!-- Vídeo principal (embed) -->
+          <div class="main-video">
+            <!-- inicial: coloque aqui o id do vídeo principal -->
+            <iframe id="mainVideo" src="https://www.youtube.com/embed/xOoht8Mless" title="Vídeo Maletti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <!-- miniaturas (data-video = ID do youtube) -->
+          <div class="thumbs">
+            <button class="thumb" data-video="xOoht8Mless"><img src="Assets/images/video-thumb-1.jpg" alt=""></button>
+            <button class="thumb" data-video="dQw4w9WgXcQ"><img src="Assets/images/video-thumb-2.jpg" alt=""></button>
+            <button class="thumb" data-video="3aX2Z2kGJIs"><img src="Assets/images/video-thumb-3.jpg" alt=""></button>
+            <button class="thumb" data-video="ANOTHER_ID"><img src="Assets/images/video-thumb-4.jpg" alt=""></button>
+          </div>
+
+          <div class="video-actions">
+            <a class="btn outline" href="https://www.youtube.com/channel/UC-placeholder" target="_blank" rel="noopener">Veja mais vídeos</a>
+            <a class="btn primary" href="#contato">Solicitar o Catálogo Maletti</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HEAD SPA -->
+    <section id="headspa" class="section headspa">
+      <div class="container headspa-grid">
+        <div class="headspa-text">
+          <h2 class="section-title">Head Spa</h2>
+          <p>As Estações Maletti Head SPA transformam o cuidado capilar em um ritual de bem-estar e resultados, promovendo a saúde do couro cabeludo através de uma experiência holística.</p>
+          <p>Esta é a solução definitiva para salões, spas e clínicas que buscam diferenciação, aumento do ticket médio e a fidelização de um público de alto padrão.</p>
+          <p>Descubra como implementar a principal tendência mundial em bem-estar no seu negócio.</p>
+        </div>
+
+        <div class="headspa-mosaic">
+          <!-- mosaico: imagens da pasta (ajuste os nomes conforme sua pasta) -->
+          <div class="mosaic-grid">
+            <img src="Assets/images/headspa-1.jpg" alt="">
+            <img src="Assets/images/headspa-2.jpg" alt="">
+            <img src="Assets/images/headspa-3.jpg" alt="">
+            <img src="Assets/images/headspa-4.jpg" alt="">
+            <img src="Assets/images/headspa-5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sinta a excelência -->
+    <section class="section showroom-cta">
+      <div class="container cta-center">
+        <h3 class="muted">Sinta a excelência de perto.</h3>
+        <a class="btn outline" href="https://www.google.com/maps/dir//Av.+J%C3%B4nia,+439+-+Vila+Alexandria,+S%C3%A3o+Paulo+-+SP,+04634-011/@-23.6173703,-46.6415725,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce59a76bf04d8f:0x3e526cbc28b645a!2m2!1d-46.6670825!2d-23.6389651?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Visite nosso Showroom</a>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO / CONTATO -->
+    <section id="contato" class="section contact dark">
+      <div class="container contact-wrapper">
+        <div class="catalog-left">
+          <img class="catalog-cover" src="Assets/images/catalog-cover.jpg" alt="Capa do catálogo Maletti">
+        </div>
+
+        <div class="catalog-form">
+          <h2 class="section-title white">Catálogo</h2>
+          <p class="white">Acesse o Catálogo Maletti e tenha em mãos a ferramenta completa para o seu projeto. Preencha seus dados e receba o catálogo Maletti.</p>
+
+          <form id="catalog-form" class="form">
+            <label><span class="label">Nome completo</span><input type="text" name="nome" required></label>
+            <label><span class="label">WhatsApp</span><input type="text" name="whatsapp"></label>
+            <label><span class="label">E-mail</span><input type="email" name="email" required></label>
+            <label><span class="label">Mensagem (opcional)</span><textarea name="mensagem" rows="4"></textarea></label>
+            <button type="submit" class="btn primary">Receber o Catálogo</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="muted small">© 2025 SHR Hair. Todos os direitos reservados.</div>
+      <div><a class="link" href="#hero">Voltar ao início</a></div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
